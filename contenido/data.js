@@ -1,6 +1,6 @@
 
 
-const bannerPrincipal = '././fotos/bannerPrincipal.jpg'
+const bannerPrincipal = './contenido/fotos/bannerPrincipal.jpg'
 
 
 
