@@ -1,6 +1,6 @@
-import bannerPrincipal from './fotos/bannerPrincipal.jpg'
 
 
+const bannerPrincipal = '././fotos/bannerPrincipal.jpg'
 export const data = [banners]
 
 
