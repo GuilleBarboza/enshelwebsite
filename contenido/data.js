@@ -5,7 +5,7 @@ const bannerPrincipal = '././fotos/bannerPrincipal.jpg'
 
 
 const banners = {
-    id: banners,
+    id: 'banners',
     imagenes: [bannerPrincipal]
 }
 
