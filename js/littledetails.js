@@ -1,5 +1,8 @@
 import { data } from '../contenido/data.js'
 
+console.log(data);
+console.log(data.banners);
+
 
 
 const root = document.getElementById('root');
