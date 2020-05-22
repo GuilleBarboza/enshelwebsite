@@ -1,6 +1,6 @@
 
 
-const bannerPrincipal = '././fotos/bannerPrincipal.jpg'
+const bannerPrincipal = './fotos/bannerPrincipal.jpg'
 export const data = [banners]
 
 
