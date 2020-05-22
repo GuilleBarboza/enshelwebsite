@@ -9,4 +9,4 @@ const banners = {
     imagenes: [bannerPrincipal]
 }
 
-export const data = [banners]
+export const data = {banners}
