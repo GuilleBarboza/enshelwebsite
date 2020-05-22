@@ -1,0 +1,397 @@
+/* GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+/*  */
+.texto {
+    font-family: 'Roboto', serif;
+    padding-top: 10px;
+    text-decoration: none;   
+}
+.texto-footer {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', serif;
+}
+.titulo {
+    font-family: 'Roboto', serif;
+    text-align: center;
+}
+
+.precio {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    font-size: 1.2em;
+}
+a {
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+.boton {
+    width: 50%;
+}
+.lilbut {
+    outline: none;
+    display: none;
+}
+.back-to-top {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 10%;
+    right: 7%;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: grey;
+    opacity: 0.3;
+    border-radius: 50%;
+    z-index: 500;
+    text-align: center;
+}
+.back-to-top:hover {
+    opacity: 0.9;
+}
+#arrowup {
+    position: relative;
+    top: 7px;
+    font-size: 2.5em;
+}
+
+  /*************************************/
+ /*********** HEADER ******************/
+/*************************************/
+header {
+    width: 100%;
+    
+}
+/***** banner *****/
+.alwaysbanner {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background: rgb(37,37,37);
+    background: radial-gradient(circle, rgba(37,37,37,1) 30%, rgba(88,88,88,1) 57%, rgb(136, 136, 136) 95%);
+    top: 20px;
+    z-index: -1;
+}
+#banner {
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+}
+
+/***** Titulo *****/
+
+#titulo {
+    font-size: 4.20em;
+    text-align : center;
+    position: absolute;
+    top: 25px;
+    left: 220px;
+    color: #fff;
+    font-family: 'Fredoka One', cursive;
+}
+#subtitulo {
+    font-size: 3em;
+    text-align : center;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    left: 120px;
+    color: #fff;
+}
+
+/* ***NAV ***** */
+
+nav {
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagen {
+    max-width: 200px;
+    max-height: 250px;
+    object-fit: cover;
+}
+.nav-link {
+    font-size: 1.5em;
+    color: #ffffff;
+    padding: 10px 10px; /* retokar */
+    background-color: rgb(82, 82, 82);
+}
+.nav-link:hover {
+    background-color: rgb(102, 102, 102);
+}
+  /*************************************/
+ /*********** MAIN ********************/
+/*************************************/
+section {
+    margin: 10px 10px;
+}
+
+/**********SERVICIOS*************/
+.img-servicios {
+    object-fit: fill; 
+}
+
+.ul-servicios {
+    list-style: none;
+}
+/* secciones productos */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 10px 30px;
+}
+.proximamente {
+    height: 150px;
+    font-size: 2em;
+}
+.col {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    height: auto; /* retokar */
+    flex-grow: 1;
+    justify-content: center;
+}
+.col:hover {
+    transform: translateY(-10px);
+    
+}
+.botn {
+    color: black;
+    padding: 10px;
+}
+i {
+    color: black;
+    padding: 10px;
+}
+
+/*seccion digitalizacion y servicios */
+.li-tit {
+    padding: 20px;
+    font-size: 2em;
+}
+.li-servicios {
+    list-style: none;
+    text-align: center;
+    margin: 20px; 
+    padding:20px;
+
+}
+.li {
+
+    list-style: none;
+    text-align: center;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-d {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+    
+}
+
+.img-d {
+    width: 100%;
+    object-fit: cover;
+    background-color: black;
+    max-height: 500px;
+}
+/*******ROLLOS*********/
+.sinstock {
+    color: rgb(163, 5, 5);
+}
+  /*************SLIDESHOW*******************/
+.go-behind {
+    display: none;
+}
+.slidebut {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border: 1.5px solid black;
+    background: none;
+    border-radius: 45%;
+    outline: none;
+}
+#prevR {
+    bottom: 150px;
+    right: 98px;
+}
+#nextR {
+    bottom: 186px;
+    left: 96px;
+}
+#prevW {
+    bottom: 50px;
+    right: 140px;
+}
+#nextW {
+    bottom: 85px;
+    left: 130px;
+}
+#prevE {
+    bottom: 50px;
+    right: 140px;
+}
+#nextE {
+    bottom: 85px;
+    left: 130px;
+}
+
+ /*************Formulario*******************/
+#formulario {
+    
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+/*************Sugerencias*******************/
+#sugerencias {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #646464;
+    padding: 20px;
+    border-radius: 5px;
+    
+    border: none;
+    
+}
+.banner-404 {
+    object-fit: cover;
+    
+}
+.titulo-mantenimiento {
+    margin: auto;
+    padding: 40px;
+}
+.row-404 {
+    display: flex;
+    flex-direction: column;
+}
+
+  /*************************************/
+ /*********** FOOTER ******************/
+/*************************************/
+
+.footer {
+    width: 100%; 
+    min-height: 300px; /* retokar */
+    padding: 5px 10px;
+    background-color: rgb(179, 179, 177);
+}
+.col-f {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    height: 400px;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    background-color: rgb(168, 168, 168);
+
+}
+.fanalogica {
+    font-size: 0.7em;
+}
+
+
+  /*************************************/
+ /*********** MEDIA QUERIES ***********/
+/*************************************/
+
+@media only screen and (max-width: 472px) {
+    #nav-bar {
+        width: 20%;
+        min-width: 69px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        background: none;
+    }
+    .nav-link { 
+       display: flex;
+       border-radius: 20%;
+       font-size: 0.9em;
+       
+    }
+    #banner {
+        height: 200px;
+    }
+    .tit-enshel, .tit-lab, .tit-subtit {
+        font-size: 1em;
+    }
+    #titulo, #subtitulo, .proximamente {
+        font-size: 1.1em;
+    }
+    #subtitulo {
+        left: 210px;
+    }
+    .texto {
+        font-size: 0.8em;
+    }
+    .togglemenu {
+        display: none;
+    }
+
+    .back-to-top {
+        display: none;
+    }
+    .imagen {
+        max-width: 150px;
+        max-height: 250px;
+    }
+
+    .alwaysbanner {
+        display: none;
+    }
+    footer {
+        padding: none;
+    }
+    .lilbut {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border: 2px solid black;
+        border-radius: 50%;
+        position: fixed;   
+        top: 10px;
+        left: 10px;
+        cursor: pointer;
+        background-color: #fff;
+    }
+}
