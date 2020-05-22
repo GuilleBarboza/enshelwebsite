@@ -1,4 +1,4 @@
-import data from '../contenido/data.js'
+import { data } from '../contenido/data.js'
 
 
 
